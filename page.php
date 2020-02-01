@@ -8,8 +8,7 @@
         <!-- Article PHP -->
         <article class="post">
           <h3>
-            <a href="<?php the_permalink(); ?>">
-              <?php the_title(); ?>
+            <?php the_title(); ?>
             </a>
           </h3>
           <div class="meta">Created by <?php the_author(); ?> on <?php the_date('l jS \of F Y h:i:s A'); ?>
@@ -21,9 +20,7 @@
             </div>
           <?php endif; ?>
 
-          <?php the_excerpt(); ?><br>
-          <!-- Button Permalink -->
-          <a class="btn" href="<?php the_permalink(); ?>">Read More</a>
+          <?php the_content(); ?>
         </article>
         <!-- WP Auto Respond -->
       <?php endwhile; ?>
@@ -32,7 +29,6 @@
     <?php endif; ?>
   </div>
 
-
   <div class="sidebar">
     <?php if (is_active_sidebar('sidebar')) : ?>
       <?php dynamic_sidebar('sidebar'); ?>
@@ -40,5 +36,9 @@
   </div>
   <div class="clr"></div>
 </div>
+
+
+</div>
+
 
 <?php get_footer();  ?>
