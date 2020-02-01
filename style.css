@@ -1,0 +1,118 @@
+/*
+
+Theme Name: WP Traversy
+Author: Ni.c0de.mus
+Author: URI: http://ni.c0de.mus.com
+Description: Simple Wordpress Theme
+Version: 1.0
+
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Alegreya+SC|Arbutus+Slab|Bree+Serif|Cinzel|Cormorant+Garamond|Crete+Round|DM+Serif+Text|Domine|Nanum+Myeongjo|Neuton|Playfair+Display+SC|Solway|Ultra|Vidaloka|Zilla+Slab&display=swap");
+
+*,
+*::before,
+*::after {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+/* Root Variables */
+
+:root {
+ /* fonts */
+
+ --bree-serif: "Bree Serif", serif;
+ --solway-serif: "Solway", serif;
+ --crete-round: "Crete Round", serif;
+ --domine-serif: "Domine", serif;
+ --cinzel-serif: "Cinzel", serif;
+ --cormorant-garamond: "Cormorant Garamond", serif;
+ --zilla-slab: "Zilla Slab", serif;
+ --nanum-serif: "Nanum Myeongjo", serif;
+ --vidaloka: "Vidaloka", serif;
+ --neuton: "Neuton", serif;
+ --playfair: "Playfair Display SC", serif;
+ --ultra-serif: "Ultra", serif;
+ --arbutus-slab: "Arbutus Slab", serif;
+ --dm-serif: "DM Serif Text", serif;
+ --alegreya: "Alegreya SC", serif;
+
+ /* Coolors */
+
+ --mellow-yellow: #f3e37c;
+ --sandstorm: #f3d34a;
+ --neon-carrot: #eea243;
+ --neon-carrot2: #f3a738;
+ --tuscan: #f1d9a7;
+ --tuscanny: #c89f9c;
+ --copper-penny: #b36a5e;
+ --platinum: #eee2df;
+ --sasquatch: #ff4d80;
+ --coral-red: #ff3e41;
+ --deep-cerise: #df367c;
+ --burgundy: #780116;
+ --flame: #d8572a;
+ --int-orange: #c32f27;
+ --jet: #3a3335;
+ --dog-rose: #d81e5b;
+ --papaya-whip: #fdf0d5;
+ --catawba: #773344;
+ --pastel-pink: #e3b5a4;
+ --alabaster: #f5e9e2;
+ --maastricht-blue: #022b3a;
+ --metal-sea: #1f7a8c;
+ --pale-aqua: #bfdbf7;
+ --rich-maroon: #b8336a;
+ --gray-magenta: #c490d1;
+ --blu-purple: #acacde;
+ --white: #ffffff;
+ --orange: #de7c01;
+ --light-blue: #0090d9;
+ --green: #00b298;
+ --black: #000;
+}
+
+/* Universal Styles */
+
+html {
+ font-size: 10px;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: var(--alegreya);
+ font-size: 1.5rem;
+ background: var(--pale-aqua);
+ color: var(--black);
+ margin: 0;
+ padding: 0;
+ line-height: 3rem;
+}
+
+header {
+ background: var(--gray-magenta);
+ color: var(--black);
+ padding: 2rem 1rem;
+}
+
+header h1 {
+ margin: 0;
+ padding: 1rem;
+ padding-bottom: 1rem;
+}
+
+.container {
+ width: 1020px;
+ margin: 0 auto;
+ overflow: auto;
+ padding: 1rem 0;
+}
+
+footer {
+ background: var(--black);
+ color: var(--pale-aqua);
+ text-align: center;
+ padding: 2rem 1rem;
+}
